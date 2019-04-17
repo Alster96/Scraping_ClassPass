@@ -29,7 +29,7 @@ writer.writerow(["Title", "Instructor", "Rating","Reviews","Time","Duration","Ve
 
 # Page index used to keep track of where we are.
 index = -1
-while index <=1:
+while index <=2:
 	try:
 		print("Page " + str(index+2) + " " + "getting scraped baby!")
 		index = index + 1
