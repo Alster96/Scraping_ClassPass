@@ -23,13 +23,13 @@ driver.find_element_by_xpath('//button[@type="submit"]').click()
 print("We're in!!")
 
 
-csv_file = open('classpass.csv', 'w', encoding='utf-8', newline='')
+csv_file = open('thursday_classpass.csv', 'w', encoding='utf-8', newline='')
 writer = csv.writer(csv_file)
 writer.writerow(["Title", "Instructor", "Rating","Reviews","Time","Duration","Venue","Location","Tags","Price"])
 
 # Page index used to keep track of where we are.
 index = -1
-while index <=2:
+while index <=1000:
 	try:
 		print("Page " + str(index+2) + " " + "getting scraped baby!")
 		index = index + 1
