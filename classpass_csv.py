@@ -23,7 +23,7 @@ driver.find_element_by_xpath('//button[@type="submit"]').click()
 print("We're in!!")
 
 
-csv_file = open('thursday_classpass.csv', 'w', encoding='utf-8', newline='')
+csv_file = open('friday_classpass.csv', 'w', encoding='utf-8', newline='')
 writer = csv.writer(csv_file)
 writer.writerow(["Title", "Instructor", "Rating","Reviews","Time","Duration","Venue","Location","Tags","Price"])
 
